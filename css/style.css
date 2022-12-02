@@ -1,0 +1,423 @@
+@charset "utf-8";
+.wrap{
+    overflow: hidden;
+    
+}
+
+iframe{
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.31);
+}
+
+
+
+
+/* -----------------------------------------섹션1 */
+
+
+.sec_1{
+    background: url(../img/main_bg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 1080px;
+    /* position: relative; */
+}
+
+header{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+}
+
+header ul{
+    display: flex;
+    justify-content: right;
+}
+
+header ul a{
+    font-size: 30px;
+    margin-right: 100px;
+    line-height: 100px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.sec_1title{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    margin: 0 auto;
+}
+
+.sec_1title h1{
+    color: white;
+    font-size: 180px;
+
+}
+
+/* ------------------------------------------섹션2 */
+.sec_2{
+    background: url(../img/sec_2\ bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1753px;
+}
+
+.sec_2title{
+    /* border: 1px solid red; */
+    width: 1600px;
+    height: 371px;
+    line-height: 371px;
+    padding-top: 80px;
+    padding: 0 160px;
+    /* margin-left: 5%; */
+}
+
+.sec_2title h1{
+    font-size: 200px;
+    font-weight: 300;
+    color: #3C5B55;
+
+}
+
+.sec_2small{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    line-height: 2em;
+    margin-left: 5%;
+}
+
+.sec_2small p{
+    color: #878787;
+    font-weight: 300;
+
+}
+
+.vidio iframe{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+}
+
+/* -----------------------섹션3 */
+
+
+.sec_3{
+    width: 100%;
+    height: 1080px;
+    /* margin: 0 160px */
+    /* border: 1px solid black; */
+}
+
+.sec_3title{
+    /* background-color: #0A0B18; */
+    width: 100%;
+    padding: 0 160px;
+}
+
+
+.sec_3title h1{
+    color: #807267;
+    font-weight: 300;
+    font-size: 100px;
+    /* text-align: center; */
+    /* padding: 0 160px; */
+    line-height: 380px;
+}
+
+.collection_img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.collection_img img{
+    margin-right: 20px;
+    width: 385px;
+    height: 429px;
+    /* border: 1px solid red; */
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.collection_img img:hover {
+    transform: scale(1.4);
+}
+
+
+
+
+/* .collection_img:hover .hover{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+} */
+
+.sec_4{
+    width: 100%;
+    height: 700px;
+    background-color: #E2D4BD;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec_4title{
+    /* border: 1px solid black; */
+    /* float: right; */
+    /* height: 100%; */
+    padding: 50px 100px;
+}
+
+.sec_4title h1{
+    font-size: 100px;
+    color: #693A18;
+    font-weight: 400;
+  
+}
+
+.sec_4title p{
+    padding-top: 30px;
+    font-size: 30px;
+    color: #837870;
+}
+
+.lookbook{
+    border: 1px solid white;
+    width: 370px;
+    height:109px;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.lookbook a{
+    font-size: 60px;
+    /* text-align: center; */
+    padding-left: 8%;
+    line-height: 109px;
+    color: white;
+}
+
+
+
+.img4_1{
+    width: 520px;
+    height: 467px;
+
+    position: relative;
+    top: 80px;
+    left: 150px;
+    /* z-index: 1; */
+}
+
+.img4_2{
+    width: 412px;
+    height: 364px;
+    /* z-index: 2; */
+    position: relative;
+    right: 100px;
+    top: 150px;
+}
+
+/* ------------------------섹션5 */
+.sec_5{
+    width: 1920px;
+    height: 100%;
+    margin: 300px 0;
+    /* padding-top: 300px; */
+}
+
+
+
+
+.fant img{
+    width: 520px;
+    height: 699px;
+    margin: 50px 0;
+}
+
+.fant1{
+    background-color: #BAAEA5;
+}
+
+.fant1 img{
+    margin-left: 160px;
+}
+
+.fant2{
+    text-align: center;
+    /* margin: 100px 0; */
+    background-color: #BAB6B3;
+    
+}
+
+
+
+.fant3{
+    text-align: right;
+    background-color: #8E8075;
+}
+.fant3 img{
+    margin-right: 160px;
+}
+
+
+/* --------------------섹션6 */
+.sec_6{
+    background: url(../img/about.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.sec_6title{
+    /* width: 100%; */
+    /* height: 300px; */
+    /* border: 1px solid white; */
+    text-align: center;
+    padding: 25px 0;
+
+}
+
+.sec_6title h1{
+    color: #F8F8F8;
+    font-size: 100px;
+    font-weight: 400px;
+}
+
+.story{
+   
+    border: 1px solid white;
+    width: 370px;
+    height: 109px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.story a{
+    padding-left: 20%;
+    font-weight: 100;
+    line-height: 109px;
+    color: white;
+    font-size: 50px;
+}
+
+/* ---------------------섹션7 */
+.sec_7{
+    padding: 100px 350px;
+    /* border: 1px solid red; */
+}
+
+.insta{
+    width: 180px;
+    height: 250px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.insta a{
+    margin: 0 auto;
+}
+
+.feed{
+    border-top: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.con-box img{
+    width: 320px;
+    height: 320px;
+    transition: 1s;
+
+}
+
+.con-box{
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+
+.con-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.con-back p{
+    color: #fff;
+}
+
+.like-box{
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+  }
+
+.icon.like{
+    background: url(../img/heart_bold.svg) no-repeat;
+    background-size: cover;
+}
+
+.icon.comment{
+    background: url(../img/comment_bold.svg) no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.con-box:hover .con-back{
+    opacity: 1;
+  }
+
+.feed .con-box:hover img{
+    transform: scale(1.2);
+  }
+
+  /* --------------------푸터 */
+  footer{
+    width: 100%;
+    height: 200px;
+    background-color: #82937D;
+
+  }
+
+  .footer p{
+    color: white;
+    text-align: right;
+    padding: 100px;
+    font-size: 30px;
+  }
+
+
+
+
+
